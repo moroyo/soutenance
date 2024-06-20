@@ -28,11 +28,11 @@
 
             @include('layouts.menu')
 
-            <div><p class="message-welcome">Contactez nous quand vous le voulez</p></div>
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"><p class="message-welcomed">Soyez libre d'echanger avec nous</p></div>
 
         <section class="cta-cl">
 
-                <div>
+                
 
                     <form class="form-clax">
 
@@ -40,32 +40,32 @@
 
                             <div class="col-sm-6">
 
-                                <p class="p-contact-classes left-side-classes">Nom</p><input type="text" class="input-classes left-side-classes">
+                                <p class="p-contact-classes">Nom</p><input type="text" class="input-classes left-side-classes">
 
-                                <p class="p-contact-classes left-side-classes">Prénom</p><input type="text" class="input-classes left-side-classes">
+                                <p class="p-contact-classes">Prénom</p><input type="text" class="input-classes left-side-classes">
 
-                                <p class="p-contact-classes left-side-classes">Nationalité</p><input type="text" class="input-classes left-side-classes">
+                                <p class="p-contact-classes">Nationalité</p><input type="text" class="input-classes left-side-classes">
 
                             </div>
 
                             <div class="col-sm-6">
 
-                                <p class="p-contact-classes right-side-classes">Vous êtes nouveau ?</p><input type="text" class="input-classes right-classes">
+                                <p class="p-contact-classes">Vous êtes nouveau ?</p><input type="text" class="input-classes right-classes">
 
-                                <p class="p-contact-classes right-side-classes">Email</p><input type="text" class="input-classes right-classes">
+                                <p class="p-contact-classes">Email</p><input type="text" class="input-classes right-classes">
 
-                                <p class="p-contact-classes right-side-classes">Téléphone</p><input type="text" class="input-classes right-classes">
+                                <p class="p-contact-classes">Téléphone</p><input type="text" class="input-classes right-classes">
+                                
+                            </div>   
 
-                            </div>
-
+                            
                        </div>
 
+                       <center><button class="envoyer-claxx">Envoyer</button></center>
 
                     </form>
 
-                </div>
-
-        </section>
+       </section>
                 
 
             @include('layouts.footer')

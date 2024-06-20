@@ -30,6 +30,22 @@
 
             <section class="pied-cl">
 
+                <div class="premier-compartiement-footer">
+
+                    <p class="reste-connecte">Resté informés et connectés</p>
+
+                </div>
+
+                <div>
+
+                    <p class="alignement-flex">oups j'ai du mal à publier une annonce ?</p>
+
+                    <p class="alignement-flex">Je sais comment se passe le paiement ?</p>
+
+                    <p class="alignement-flex">Comment nous rejoindre?</p>
+
+                </div>
+
                 <div class="row">   
 
                         <div class="lync">

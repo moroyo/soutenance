@@ -6,6 +6,12 @@
     font-family:"Dosis"; 
     text-align:center; 
 }
+.premier-p-clax
+{
+  color:rgba(137, 43, 226, 0.171);
+  font-weight:400;
+  font-size:20px;
+}
 .logo-brand
 {
     width:280px;
@@ -33,7 +39,7 @@ header
 a
 {
   text-decoration:none;
-  color:beige;
+  color:rgba(160, 160, 157, 0.5);
 }
 li
 {
@@ -45,7 +51,7 @@ li
     list-style:none;
     text-decoration:none;
     font-weight:500;
-    color:bbeige;
+    color:beige;
     transition:0.5s;
 }
 li:hover
@@ -102,11 +108,13 @@ li:hover
     align-items:center;
     text-align:center;
 }
+
 .bie
 {
     font-size:60px;
     font-weight: bold;
     align-items:center;
+    margin:15px;
     text-align:center;
     background: linear-gradient(45deg, #88def3, #93ffb5);
     -webkit-background-clip: text;
@@ -223,11 +231,9 @@ li:hover
 }
 .cr-cl
 {
-  background-image: url('../picture/dee.jpg');
-  background-repeat:no;
-  padding:75px;
+  background:saddlebrown;
+  padding:65px;
   height:500px;
-  margin:100px;
 }
 /*******/
 .wrapper{
@@ -236,18 +242,18 @@ li:hover
   position: relative;
 }
 .wrapper i{
-  top:130%;
+  top:103%;
   height:47px;
   width:47px;
   margin:25px;
-  color:rgb(255, 255, 255);
+  color:rgba(255, 255, 255, 0.952);
   cursor: pointer;
   font-size:1.9rem;
   position: absolute;
-  right:50%;
+  right:63%;
   text-align: center;
   line-height: 44px;
-  background:beige;
+  background:rgba(245, 245, 220, 0.315);
   border-radius:50%;
   transition: transform 0.5s linear;
 }
@@ -255,7 +261,7 @@ li:hover
   transform: translateY(-50%) scale(0.9);
 }
 .wrapper i:hover{
-  background:cornsilk;
+  background:rgba(95, 48, 14, 0.562);
 }
 .wrapper i:first-child{
   left:25%;
@@ -287,7 +293,7 @@ li:hover
   width: calc(100% /3);
 }
 .carousel img:first-child{
-  margin-left:125px;
+  margin-left:50px;
 }
 
 @media screen and (max-width: 900px) {
@@ -312,12 +318,17 @@ li:hover
 .li-cs a
 {
   text-decoration:none;
-  color:rgba(87, 87, 87, 0.473);
+  font-family:'Princess Amanda';
+  font-weight:400;
+  font-size:1.1rem;
+  color:chocolate;
+  transition:0.2s;
 }.li-cs a:hover
 {
   text-decoration:none;
-  color:rgba(87, 87, 87, 0.788);
+  color:rgba(0, 0, 0, 0.342);
 }
+
 /*** FOOTER ***/
 .bi-linkedin
 {
@@ -330,23 +341,24 @@ li:hover
   text-align:center;
   background:rgba(0, 0, 0, 0.699);
   padding:10px 12px;
-  transition: transform 0.5s linear;
+  transition:1s;
 }
 .bi-linkedin:hover
 {
-  transform: translateY(-50%) scale(0.9);
+  transform:scale(0.9);
 }
 .leicons
 {
-  margin:50px;
+  margin:30px;
 }
 .lync
 {
-  margin:100px;
+  margin:75px;
 }
 .pied-cl
 {
   background-color:rgb(43, 43, 43);
+  padding-top:25px;
   
 }
 /*CONTACT PAGE CODE*/
@@ -358,6 +370,18 @@ li:hover
   margin:150px;
   text-align:center;
   background: linear-gradient(90deg, #fa03034f, #211fa12d);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+.message-welcomed
+{
+  font-size:85px;
+  font-weight:600;
+  align-items:center;
+  margin:150px;
+  text-align:center;
+  font-family:'Slime Candy';
+  background: linear-gradient(90deg, #3836364d, #f5f100);
   -webkit-background-clip: text;
   color: transparent;
 }
@@ -375,22 +399,39 @@ li:hover
 }
 .col-sm-6
 {
-  margin:100px;
+  margin:25px;
+  max-width:612px;
 }
 .form-clax
 {
-  margin:50px;
+  padding:10px;
 }
 .input-classes
 {
   margin:2px;
-  width:400px;
-  height:40px;
+  width:350px;
+  height:50px;
   padding:2px;
-  border:1px solid rgba(53, 53, 53, 0.63);
+  border:2px solid rgba(53, 53, 53, 0.63);
   outline:none;
   background:none;
   font-size:20px;
+  border-radius:6px;
+  color:rgba(117, 116, 116, 0.26);
+  text-decoration:none;
+  transition:0.1s all ease;
+}
+.area
+{
+  margin:2px;
+  width:600px;
+  height:90px;
+  padding:2px;
+  border:2px solid rgba(196, 196, 196, 0.63);
+  outline:none;
+  background:none;
+  font-size:20px;
+  border-radius:9px;
   color:rgba(117, 116, 116, 0.26);
   text-decoration:none;
   transition:0.1s all ease;
@@ -402,5 +443,127 @@ li:hover
 .cta-cl
 {
   background:rgba(0, 0, 0, 0.87);
-  padding:5px;
+  height:auto;
+  width:100%;
+}
+.envoyer-claxx
+{
+  background:rgb(97, 192, 118);
+  outline:none;
+  border:none;
+  color:rgba(0, 0, 0, 0.267);
+  font-weight:500;
+  padding:10px;
+  font-size:1.3rem;
+  width:150px;
+  transition:0.1s;
+  margin:50px;
+  border-radius:6px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.123);
+  text-decoration:none;
+  text-align: center;
+}
+.pub-clax
+{
+  font-size:1.1rem;
+  font-weight:500;
+  color: rgba(191, 193, 103, 0.35);
+}
+.col
+{
+  margin:25px;
+}
+.inpute-clax
+{
+  margin:30px;
+  width:350px;
+  height:50px;
+  border:2px solid rgba(191, 193, 103, 0.35);;
+  outline:none;
+  background:none;
+  border-radius:6px;
+  font-size:20px;
+  color:rgba(51, 51, 51, 0.582);
+  text-decoration:none;
+  transition:0.1s all ease;
+}
+.inpute-clax:active
+{
+  transform: scaleX(1.2);
+}
+.boutton-publier
+{
+  background:rgb(97, 192, 118);
+  outline:none;
+  border:none;
+  color:rgba(227, 233, 227, 0.877);
+  font-weight:500;
+  padding:15px;
+  font-size:1.5rem;
+  width:150px;
+  transition:0.1s;
+  margin:50px;
+  border-radius:6px;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.123);
+  text-decoration:none;
+  text-align: center;
+}
+.boutton-publier:hover
+{
+  background:rgb(97, 192, 118);
+  outline:none;
+  border:none;
+  color:rgba(227, 233, 227, 0.877);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.123);
+  transform:scale(1.1);
+}
+.boutton-publier:active
+{
+  background:green;
+  color:rgba(44, 44, 44, 0.432);
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.123);
+  transform:scale(1.1);
+}
+.bulles
+{
+  height:300px;
+  width:300px;
+  margin:50px;
+  box-shadow: 0 0 4px 2px rgba(70, 10, 10, 0.603);
+}
+.bulles-p-classes
+{
+  font-size:1.1rem;
+  color:rgba(0, 0, 0, 0.445);
+  padding:50px;
+}
+.clax-cards-done
+{
+  background:darkred;
+  padding:70px;
+}
+/*RESPONSIVITE SECTION ROUGE*/
+@media screen and (min-width:768) and (max-width:1023px)
+{
+ 
+}
+/*RESPONSIVITE SECTION ROUGE*/
+.reste-connecte
+{
+  font-size:4rem;
+  font-family:'Slime Candy';
+  font-weight:600;
+  margin:30px;
+  padding:45px;
+  color:orangered;
+}
+.alignement-flex
+{
+  display:inline-flex;
+  font-size:1.1rem;
+  font-weight:500;
+  color:darkgoldenrod;
+  margin:10px;
+  text-transform:lowercase;
+  font-family:'Princess Amanda';
 }

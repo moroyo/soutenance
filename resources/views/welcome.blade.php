@@ -31,21 +31,106 @@
         
         <section class="hoop">
 
-         <div class="contento">
+         <div  class="contento">
 
             <p class="cieso">Bienvenue sur le site de </p>
 
             <p class="bie cieco">SWAP</p>
 
-            <p class="bieno">
+            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"class="bieno">
                 
-                Nous sommes ravis de vous accueillir sur notre plateforme, où nous nous efforçons de vous offrir la meilleure expérience possible. Que vous soyez ici pour découvrir nos produits, en savoir plus sur nos services, ou simplement explorer nos contenus, nous espérons que vous trouverez tout ce dont vous avez besoin.
+                <p class="">
+                    Nous sommes ravis de vous accueillir sur notre plateforme, où nous nous efforçons de vous offrir la meilleure expérience possible. Que vous soyez ici pour découvrir nos produits, en savoir plus sur nos services, ou simplement explorer nos contenus, nous espérons que vous trouverez tout ce dont vous avez besoin.
 
-                Notre équipe est dédiée à vous fournir des informations précises, un service client exceptionnel, et des solutions adaptées à vos besoins. N'hésitez pas à naviguer à travers nos différentes sections et à nous contacter pour toute question ou assistance.
+                    Notre équipe est dédiée à vous fournir des informations précises, un service client exceptionnel, et des solutions adaptées à vos besoins. N'hésitez pas à naviguer à travers nos différentes sections et à nous contacter pour toute question ou assistance.
+                </p>
 
-            </p>
+            </div>
 
          </div>
+
+        </section>
+
+        <section class="clax-cards-done">
+
+        <div class="row">
+
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000"class="bieno">
+
+               <div class="bulles">
+
+                    <p class="bulles-p-classes">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aliquid accusamus doloremque libero dolorem, totam at, culpa
+                        saepe hic deleniti quisquam quasi obcaecati delectus numquam 
+                        debitis nesciunt nobis! Aut, doloribus ad?
+
+                    </p>
+
+               </div>  
+
+            </div>
+
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000"class="bieno">
+                  
+               <div class="bulles">
+
+                    <p class="bulles-p-classes">
+
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Aliquid accusamus doloremque libero dolorem, totam at, culpa
+                        saepe hic deleniti quisquam quasi obcaecati delectus numquam 
+                        debitis nesciunt nobis! Aut, doloribus ad?
+
+                    </p>
+
+               </div>
+
+            </div>
+
+
+        </div>
+
+
+        <div class="row">
+
+            <div data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000"class="bieno">
+
+                <div class="bulles">
+
+                    <p class="bulles-p-classes">
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Aliquid accusamus doloremque libero dolorem, totam at, culpa
+                    saepe hic deleniti quisquam quasi obcaecati delectus numquam 
+                    debitis nesciunt nobis! Aut, doloribus ad?
+
+                    </p>
+
+                </div>  
+
+            </div>
+
+            <div data-aos="fade-left" data-aos-easing="linear" data-aos-duration="1000"class="bieno">
+            
+                <div class="bulles">
+
+                    <p class="bulles-p-classes">
+
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                    Aliquid accusamus doloremque libero dolorem, totam at, culpa
+                    saepe hic deleniti quisquam quasi obcaecati delectus numquam 
+                    debitis nesciunt nobis! Aut, doloribus ad?
+
+                    </p>
+
+                </div>
+
+            </div>
+
+
+        </div>
 
         </section>
 

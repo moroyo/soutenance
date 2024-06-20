@@ -51,7 +51,7 @@
 
     <script>
 
-        document.addEventListener('DOMContentLoaded', () => {
+       /*  document.addEventListener('DOMContentLoaded', () => {
         let menu = document.querySelector('.bi-triangle-fill');
         let navbar = document.querySelector('ul');
 
@@ -61,9 +61,7 @@
         menu.classList.toggle('bi-triangle-fill');
         navbar.classList.toggle('open');
     };
-    });
-
-    gsap.from('p',1.2,{opacity:0,y:-80,delay:0.9})
+    });*/
 
     /* CAROUSEL CODE */
                 const carousel = document.querySelector(".carousel"),
