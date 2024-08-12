@@ -37,13 +37,27 @@
 
             <p class="bie cieco">SWAP</p>
 
-            <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"class="bieno">
+            <div class="bieno">
                 
-                <p class="">
-                    Nous sommes ravis de vous accueillir sur notre plateforme, où nous nous efforçons de vous offrir la meilleure expérience possible. Que vous soyez ici pour découvrir nos produits, en savoir plus sur nos services, ou simplement explorer nos contenus, nous espérons que vous trouverez tout ce dont vous avez besoin.
+            <div class="row ">
 
-                    Notre équipe est dédiée à vous fournir des informations précises, un service client exceptionnel, et des solutions adaptées à vos besoins. N'hésitez pas à naviguer à travers nos différentes sections et à nous contacter pour toute question ou assistance.
-                </p>
+                <div class="col-8">
+
+                    <p class="classico">
+
+                    <span class="span-field"> Un service client</span> exceptionnel, et des solutions adaptées à vos besoins.<span class="span-field">N'hésitez pas</span> à naviguer à travers nos différentes sections et à nous contacter pour toute question ou <span class="span-field">assistance</span>.
+                    
+                    </p>
+
+                </div>
+
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000" class="col-4">
+
+                <img src="{{ asset('picture/pic.png') }}" class="modif-image">
+
+                </div>
+
+                </div>
 
             </div>
 

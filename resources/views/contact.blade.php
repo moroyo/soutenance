@@ -30,40 +30,50 @@
 
             <div data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500"><p class="message-welcomed">Soyez libre d'echanger avec nous</p></div>
 
-        <section class="cta-cl">
+        <section class="ct-st-cl">
 
-                
+                <div class="left-corner" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="1000">
+
+                    <p class="side-contact"><span class="ctact-cl"> Nous </span> serions ravis de répondre à toutes vos questions ou de discuter de vos besoins. N'hésitez pas à nous envoyer un message en utilisant le formulaire ci-dessous. Nous vous répondrons dans les plus brefs délais.</p>
+                    
+                </div><br>
+
+
+                <div class="next-corner-cl">
 
                     <form class="form-clax">
+            
+                        <div class="align-inputs">
 
-                       <div class="row">
+                            <p class="p-contact-classes">Nom</p><input type="text" class="input-classes left-side-classes">
 
-                            <div class="col-sm-6">
+                            <p class="p-contact-classes">Prénom</p><input type="text" class="input-classes left-side-classes">
 
-                                <p class="p-contact-classes">Nom</p><input type="text" class="input-classes left-side-classes">
+                        </div>
 
-                                <p class="p-contact-classes">Prénom</p><input type="text" class="input-classes left-side-classes">
+                        <div class="align-inputs">
 
-                                <p class="p-contact-classes">Nationalité</p><input type="text" class="input-classes left-side-classes">
+                            <p class="p-contact-classes">Nationalité</p><input type="text" class="input-classes left-side-classes">
 
-                            </div>
+                            <p class="p-contact-classes">Vous êtes nouveau ?</p><input type="text" class="input-classes right-classes">
 
-                            <div class="col-sm-6">
+                        </div>
 
-                                <p class="p-contact-classes">Vous êtes nouveau ?</p><input type="text" class="input-classes right-classes">
+                        <div class="align-inputs">
 
-                                <p class="p-contact-classes">Email</p><input type="text" class="input-classes right-classes">
+                            <p class="p-contact-classes">Email</p><input type="text" class="input-classes right-classes">
 
-                                <p class="p-contact-classes">Téléphone</p><input type="text" class="input-classes right-classes">
-                                
-                            </div>   
+                            <p class="p-contact-classes">Téléphone</p><input type="text" class="input-classes right-classes"><br>
 
-                            
-                       </div>
+                        </div>
 
-                       <center><button class="envoyer-claxx">Envoyer</button></center>
+                        <button class="envoyer-claxx">Envoyer</button>
 
                     </form>
+
+                </div>
+
+       
 
        </section>
                 

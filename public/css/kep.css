@@ -102,7 +102,7 @@ li:hover
 }
 .bieno
 {
-    color:rgb(172, 151, 161);
+    color:rgba(233, 150, 122, 0.623);
     font-size:1.3rem;
     margin:25px;
     align-items:center;
@@ -231,7 +231,7 @@ li:hover
 }
 .cr-cl
 {
-  background:saddlebrown;
+  background: linear-gradient(rgb(239, 255, 235) ,rgba(192, 255, 179, 0.38));
   padding:65px;
   height:500px;
 }
@@ -246,14 +246,15 @@ li:hover
   height:47px;
   width:47px;
   margin:25px;
-  color:rgba(255, 255, 255, 0.952);
+  font-weight:600;
+  color: rgba(44, 42, 42, 0.534);
   cursor: pointer;
-  font-size:1.9rem;
+  font-size:1.2rem;
   position: absolute;
   right:63%;
   text-align: center;
   line-height: 44px;
-  background:rgba(245, 245, 220, 0.315);
+  background:rgb(255, 255, 255);
   border-radius:50%;
   transition: transform 0.5s linear;
 }
@@ -261,7 +262,7 @@ li:hover
   transform: translateY(-50%) scale(0.9);
 }
 .wrapper i:hover{
-  background:rgba(95, 48, 14, 0.562);
+  background:rgba(245, 245, 220, 0.411);
 }
 .wrapper i:first-child{
   left:25%;
@@ -402,21 +403,32 @@ li:hover
   margin:25px;
   max-width:612px;
 }
+/* CODE PAGE CONTACT */
 .form-clax
 {
-  padding:10px;
+  margin:5px;
+  padding:25px;
+  background:rgb(0, 0, 0);
+  box-shadow: 0 0 3px 2px rgba(70, 10, 10, 0.04),
+  0 0 3px 2px rgba(70, 10, 10, 0.04),
+  0 0 3px 2px rgba(70, 10, 10, 0.04),
+  0 0 3px 2px rgba(70, 10, 10, 0.04);
 }
+.left-corner
+{
+  margin:30px;
+}
+
 .input-classes
 {
   margin:2px;
-  width:350px;
-  height:50px;
+  width:200px;
+  height:40px;
   padding:2px;
-  border:2px solid rgba(53, 53, 53, 0.63);
+  border: 2px solid #575a5c3d;
   outline:none;
   background:none;
   font-size:20px;
-  border-radius:6px;
   color:rgba(117, 116, 116, 0.26);
   text-decoration:none;
   transition:0.1s all ease;
@@ -440,28 +452,27 @@ li:hover
 {
   transform: scaleX(1.2);
 }
-.cta-cl
-{
-  background:rgba(0, 0, 0, 0.87);
-  height:auto;
-  width:100%;
-}
 .envoyer-claxx
 {
-  background:rgb(97, 192, 118);
+  background:none;
   outline:none;
-  border:none;
-  color:rgba(0, 0, 0, 0.267);
+  color:rgba(255, 255, 255, 0.699);
   font-weight:500;
   padding:10px;
   font-size:1.3rem;
   width:150px;
   transition:0.1s;
+  font-family:"Titillium Web";
   margin:50px;
-  border-radius:6px;
-  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.123);
-  text-decoration:none;
+  border:2px solid rgb(114, 255, 184);
   text-align: center;
+  transition:1s;
+}
+.envoyer-claxx:hover
+{
+  background:rgb(114, 255, 184);
+  color:rgb(0, 0, 0);
+  border:none;
 }
 .pub-clax
 {
@@ -499,8 +510,8 @@ li:hover
   color:rgba(227, 233, 227, 0.877);
   font-weight:500;
   padding:15px;
-  font-size:1.5rem;
-  width:150px;
+  font-size:1.2rem;
+  width:100px;
   transition:0.1s;
   margin:50px;
   border-radius:6px;
@@ -528,18 +539,23 @@ li:hover
 {
   height:300px;
   width:300px;
+  background:whitesmoke;
   margin:50px;
-  box-shadow: 0 0 4px 2px rgba(70, 10, 10, 0.603);
+  border-radius:35px;
+  box-shadow: 0 0 4px 2px rgba(238, 231, 231, 0.219),
+  0 0 4px 2px rgba(238, 231, 231, 0.219),
+  0 0 4px 2px rgba(238, 231, 231, 0.219),
+  0 0 4px 2px rgba(238, 231, 231, 0.219);
 }
 .bulles-p-classes
 {
   font-size:1.1rem;
-  color:rgba(0, 0, 0, 0.445);
+  color: rgba(0, 0, 0, 0.42);
   padding:50px;
 }
+
 .clax-cards-done
 {
-  background:darkred;
   padding:70px;
 }
 /*RESPONSIVITE SECTION ROUGE*/
@@ -566,4 +582,55 @@ li:hover
   margin:10px;
   text-transform:lowercase;
   font-family:'Princess Amanda';
+}
+.modif-image
+{
+  width:300px;
+  height:400px;
+}
+.span-field
+{
+  font-family:"Titillium Web";
+  font-size:2rem;
+  font-weight:600;
+  color:rgba(220, 20, 60, 0.507);
+}
+.classico
+{
+  font-size:1.8rem;
+  color: rgba(0, 0, 0, 0.212);
+  padding:50px;
+  font-family:"Titillium Web";
+}
+.side-contact
+{
+  font-size:1.2rem;
+  color: rgba(0, 0, 0, 0.664);
+  padding:50px;
+  font-family:"Titillium Web";
+}
+.ct-st-cl
+{
+  /* padding:30px;
+  background-image: url('../picture/odou.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height:auto;
+  margin: 0; */
+  background:beige;
+  padding:50px;
+}
+.ctact-cl
+{
+  background: linear-gradient(90deg, #e7e6ee, #57371246);
+  -webkit-background-clip: text;
+  font-family:"Titillium Web";
+  font-weight:600;
+  font-size:5rem;
+  color: transparent;
+}
+.align-inputs
+{
+  display:inline-flex;
 }

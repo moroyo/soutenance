@@ -50,40 +50,45 @@
 
                 <div class="row">
 
-                    <div class="col">
-
-                            <p class="pub-clax">lieu</p><input type="text" class="inpute-clax">
-
-                            <p class="pub-clax">catégorie</p><input type="text" class="inpute-clax">
-
-                            <p class="pub-clax">heure d'arrivée</p><input type="text" class="inpute-clax">
-
-                            <p class="pub-clax">titre de la publication</p><input type="text" class="inpute-clax">
-
-                            <p class="pub-clax">kilos disponible</p><input type="text" class="inpute-clax">
-
-                            <p class="pub-clax">disponibilité</p><input type="text" class="inpute-clax">
-
-                    </div>
+                   <form action="" method="post">
+                    
+                    @csrf
 
                     <div class="col">
 
-                            <p class="pub-clax">nom</p><input type="text" class="inpute-clax">
+                            <p class="pub-clax">lieu</p><input type="text" class="inpute-clax" name="lieu">
 
-                            <p class="pub-clax">prénom</p><input type="text" class="inpute-clax">
+                            <p class="pub-clax">catégorie</p><input type="text" class="inpute-clax" name="categorie">
 
-                            <p class="pub-clax">nationalité</p><input type="text" class="inpute-clax">
+                            <p class="pub-clax">heure d'arrivée</p><input type="text" class="inpute-clax" name="heure_arrivee">
 
-                            <p class="pub-clax">ville de dstination</p><input type="text" class="inpute-clax">
-                            
-                            <p class="pub-clax">heure de départ</p><input type="text" class="inpute-clax">
+                            <p class="pub-clax">titre de la publication</p><input type="text" class="inpute-clax" name="titre_de_publication">
 
-                            <p class="pub-clax">ville de départ</p><input type="text" class="inpute-clax">
+                            <p class="pub-clax">kilos disponible</p><input type="text" class="inpute-clax" name="kilos_disponile">
+
+                            <p class="pub-clax">disponibilité</p><input type="text" class="inpute-clax" name="disponibilite">
+
+                            </div>
+
+                            <div class="col">
+
+                            <p class="pub-clax">nom</p><input type="text" class="inpute-clax" name="nom">
+
+                            <p class="pub-clax">prénom</p><input type="text" class="inpute-clax" name="prenom">
+
+                            <p class="pub-clax">nationalité</p><input type="text" class="inpute-clax" name="nationalite">
+
+                            <p class="pub-clax">ville de destination</p><input type="text" class="inpute-clax" name="ville_de_destination">
+
+                            <p class="pub-clax">heure de départ</p><input type="text" class="inpute-clax" name="heure_depart">
+
+                            <p class="pub-clax">ville de départ</p><input type="text" class="inpute-clax" name="ville_de_depart">
 
 
 
-                    </div>
+                            </div>
 
+                   </form>
 
                     <center><button class="boutton-publier">Valider</button></center>
 
